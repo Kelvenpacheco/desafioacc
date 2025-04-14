@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    background-color: #1976d2;
+    color: white;
+  
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .container {
+    padding: 24px;
+  }
+  
